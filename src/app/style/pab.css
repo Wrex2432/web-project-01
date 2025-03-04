@@ -1,0 +1,96 @@
+#partners-and-brands {
+    position: relative;
+    height: fit-content;
+    /* background-color: #071330; */
+    background-color: #EFEEE3;
+    /* width: 100vw; */
+    color: #fff;
+    /* padding: 5rem; */
+    /* padding-bottom: 8rem;
+    border-bottom-right-radius: 95px;
+    border-bottom-left-radius: 95px; */
+    padding-bottom: 5rem;
+    
+
+}
+
+.pab__title{
+    color: #F3F2E4;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    padding: 5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.animation-delay{
+    animation-delay: 3000ms;
+}
+.pab__logos-container {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+.pab__logos-wrapper{
+    display: flex;
+    font-size: 40px;
+    width: fit-content;
+    /* transform: translateX(-34%); */
+    animation-name: infiniteScroll;
+    animation-duration: 55s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-play-state: paused; */
+}
+.pab__logos-wrapper:hover{
+    /* animation-play-state: paused; */
+}
+.pab__logos {
+    /* border: 2px solid violet; */
+    width: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+.pab__logos img, .pab__logos li {
+    display: inline;
+    width: 140px;
+}
+.pab__logos img {
+    filter: grayscale(100);
+}
+.pab__logos img:hover {
+    filter: grayscale(0);
+}
+.pab__logos li:first-child{
+    margin-left: 6rem;
+}
+
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-50%)}
+}
+
+
+.pab__top-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #071330;
+    /* background-color: blue; */
+    /* border: 2px solid red; */
+    /* border-radius: 5px; */
+    padding-bottom: 8rem;
+    border-bottom-right-radius: 85px;
+    border-bottom-left-radius: 85px;
+    box-shadow: 0 15px 15px #1e305aa1;
+}
+.pab__ender {
+    border: 2px solid red;
+    height: 50px;
+    width: 100%;
+    border-bottom-right-radius: 195px;
+    border-bottom-left-radius: 195px;
+}

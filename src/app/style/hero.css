@@ -1,0 +1,45 @@
+#hero {
+    position: relative;
+    height: 200vh;
+    /* padding-top: 4rem; */
+    /* width: 100vw; */
+    height: fit-content;
+    /* overflow: hidden; */
+}
+
+.hero__banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* width: 960px; */
+    width: clamp(940px, 2rem, 960px);
+}
+.hero__banner-elements{
+    position: sticky;
+    top: 0;
+    /* border: 2px solid lime; */
+    height: 100vh;
+    padding: 4rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    font-size: 1.4rem;
+}
+.hero__banner-elements p {
+    padding-left: 2rem;
+}
+
+.canvas {
+    
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    /* height: fit-content;
+    display: flex;
+    justify-content: end; */
+}
+.canvas figure {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+}

@@ -27,7 +27,7 @@
     /* border: 1px solid red; */
     width: 180px;
 }
-.nav__links li {
+.nav__link-button {
     /* height: 50px; */
     /* width: 100px; */
     /* border: 1px solid pink; */
@@ -37,10 +37,10 @@
     align-items: center;
     justify-content: center;
 }
-.nav__links img {
+.nav__link-button img {
     transform: scale(0.5);
 }
-.nav__links li:hover {
+.nav__link-button:hover {
     background-color: #0c1e52;
     border-radius: 25px;
 }

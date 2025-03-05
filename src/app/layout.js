@@ -1,10 +1,17 @@
 import Background from "./component/background";
+import "./globals.css";
 import "./style/hero.css";
 import "./style/nav.css";
 import "./style/pab.css"
 import "./style/showreel.css";
 import "./style/background.css";
 import "./style/homeFooter.css";
+
+
+import "./style/about/about-services.css";
+import "./style/about/about-footer.css";
+import "./style/about/about-players.css";
+
 
 export const metadata = {
   title: 'Metama',

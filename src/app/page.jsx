@@ -1,6 +1,6 @@
 import Hero from "./component/home_component/hero";
-import NavBar from "./component/home_component/navbar";
-import "./main-style.css"
+import NavBar from "./component/navbar";
+import "./main-style.css";
 import Showreel from "./component/home_component/showreel";
 import PartnersAndBrands from "./component/home_component/partner-and-brands";
 import Footer from "./component/home_component/home-footer";
